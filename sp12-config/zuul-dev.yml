@@ -19,6 +19,7 @@ ribbon:
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
   
+  
 hystrix:
   command:
     default:
