@@ -1,6 +1,9 @@
 spring:
   application:
     name: zuul
+  cloud:
+    config:
+      override-none: true
     
 server:
   port: 3001
@@ -27,6 +30,3 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
-  cloud:
-    config:
-      override-none: true
